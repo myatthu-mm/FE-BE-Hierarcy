@@ -1,0 +1,10 @@
+.type-icon {
+  color: #999;
+  margin-right: 5px;
+}
+
+.img-container {
+  position: fixed;
+  right: 20%;
+  top: 20%;
+}
