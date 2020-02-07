@@ -1,8 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { RouteReuseStrategy } from '@angular/router';
+import { AppRoutingModule } from './app-routing.module';
+import { CustomRouteReuseStrategy } from './router-strategy';
+import { CustomRouterLink } from './custom-router-link';
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTreeModule } from '@angular/material/tree';
 import { MatButtonModule } from '@angular/material/button';
@@ -13,7 +17,8 @@ import { BeComponent } from './be/be.component';
   declarations: [
     AppComponent,
     FeComponent,
-    BeComponent
+    BeComponent,
+    CustomRouterLink
   ],
   imports: [
     BrowserModule,
@@ -23,7 +28,10 @@ import { BeComponent } from './be/be.component';
     MatIconModule,
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [{
+    provide: RouteReuseStrategy,
+    useClass: CustomRouteReuseStrategy
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

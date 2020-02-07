@@ -6,14 +6,16 @@ const routes: Routes = [
   {
     path: '',
     redirectTo: 'fe',
-    pathMatch: 'full',
+    pathMatch: 'full'
   },
   {
     path: 'fe',
-    component: FeComponent
+    component: FeComponent,
+    data: { reuse: true }
   },
   {
     path: 'be',
+    data: { reuse: true },
     component: BeComponent
   }
 ];
