@@ -46,7 +46,6 @@ export const data = [
                 name: 'core',
                 type: 'folder',
                 children: [
-                  { name: 'guards', type: 'folder' },
                   {
                     name: 'http',
                     type: 'folder',
