@@ -14,6 +14,84 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
+## How is Directory
+
+### Front-end Architecture
+
+```
+PROJECT_NAME
+├── src
+    ├── app
+        ├── app(style)
+        ├── app(template)
+        ├── app(script)
+        ├── app(module)
+        ├── app(routing)
+        ├── components
+            ├── componentA
+            ├── componentB
+            ├── componentC
+        ├── layouts
+            ├── footer
+            ├── navbar
+            ├── sidebar
+        ├── views
+            ├── home
+            ├── login
+            ├── error
+        ├── core
+            ├── http
+                ├── config
+                ├── services
+                ├── share
+            ├── mocks
+            ├── authentication
+        ├── modules
+        ├── shared
+            ├── components
+            ├── services
+            ├── directives
+            ├── pipes
+            ├── models
+            ├── constant
+    ├── assets
+        ├── images
+        ├── scss
+    ├── environments
+        ├── environment.prod.ts
+        ├── environment.ts
+    ├── index.html
+├── node_modules
+├── README.md
+├── package.json
+```
+
+### Backend Architecture
+
+```
+PROJECT_NAME
+├── config
+    ├── permission.js
+├── controllers
+    ├── Controller1
+    ├── Controller2
+    ├── Controller3
+├── helpers
+    ├── constants.js
+├── routes
+    ├── api.js(Bundle routes)
+    ├── route1
+    ├── route2
+├── services
+    ├── auth.js
+    ├── Database access
+    ├── Enteran API
+├── app.js
+├── package.json
+├── README.md
+├── .env
+```
+
 ## Resources
 
 [Material Tree](https://stackblitz.com/edit/material-tree)
