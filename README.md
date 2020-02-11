@@ -21,49 +21,49 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ```
 PROJECT_NAME
 ├── src
-    ├── app
-        ├── app(style)
-        ├── app(template)
-        ├── app(script)
-        ├── app(module)
-        ├── app(routing)
-        ├── components
-            ├── componentA
-            ├── componentB
-            ├── componentC
-        ├── layouts
-            ├── footer
-            ├── navbar
-            ├── sidebar
-        ├── views
-            ├── home
-            ├── login
-            ├── error
-        ├── core
-            ├── http
-                ├── config
-                ├── services
-                ├── share
-            ├── mocks
-            ├── authentication
-        ├── modules
-        ├── shared
-            ├── components
-            ├── services
-            ├── directives
-            ├── pipes
-            ├── models
-            ├── constant
-    ├── assets
-        ├── images
-        ├── scss
-    ├── environments
-        ├── environment.prod.ts
-        ├── environment.ts
-    ├── index.html
+│    ├── app
+│    │   ├── app(style)
+│    │   ├── app(template)
+│    │   ├── app(script)
+│    │   ├── app(module)
+│    │   ├── app(routing)
+│    │   ├── components
+│    │   │   ├── componentA
+│    │   │   ├── componentB
+│    │   │   └── componentC
+│    │   ├── layouts
+│    │   │   ├── footer
+│    │   │   ├── navbar
+│    │   │   └── sidebar
+│    │   ├── views
+│    │   │   ├── home
+│    │   │   ├── login
+│    │   │   └── error
+│    │   ├── core
+│    │   │   ├── http
+│    │   │   │   ├── config
+│    │   │   │   ├── services
+│    │   │   │   └── share
+│    │   │   ├── mocks
+│    │   │   └── authentication
+│    │   ├── modules
+│    │   ├── shared
+│    │   │   ├── components
+│    │   │   ├── services
+│    │   │   ├── directives
+│    │   │   ├── pipes
+│    │   │   ├── models
+│    │   │   └── constant
+│    ├── assets
+│    │   ├── images
+│    │   └── scss
+│    ├── environments
+│    │   ├── environment.prod.ts
+│    │   └── environment.ts
+│    └── index.html
 ├── node_modules
 ├── README.md
-├── package.json
+└── package.json
 ```
 
 ### Backend Architecture
@@ -71,25 +71,25 @@ PROJECT_NAME
 ```
 PROJECT_NAME
 ├── config
-    ├── permission.js
+│   └── permission.js
 ├── controllers
-    ├── Controller1
-    ├── Controller2
-    ├── Controller3
+│   ├── Controller1
+│   ├── Controller2
+│   └── Controller3
 ├── helpers
-    ├── constants.js
+│   └── constants.js
 ├── routes
-    ├── api.js(Bundle routes)
-    ├── route1
-    ├── route2
+│   ├── api.js(Bundle routes)
+│   ├── route1
+│   └── route2
 ├── services
-    ├── auth.js
-    ├── Database access
-    ├── Enteran API
+│   ├── auth.js
+│   ├── Database access
+│   └── External API
 ├── app.js
 ├── package.json
 ├── README.md
-├── .env
+└── .env
 ```
 
 ## Resources
