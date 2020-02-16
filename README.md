@@ -1,4 +1,4 @@
-# CodeHierarchy
+# Code Hierarchy
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
 
@@ -41,9 +41,13 @@ PROJECT_NAME
 │    │   │   └── error
 │    │   ├── core
 │    │   │   ├── http
-│    │   │   │   ├── config
-│    │   │   │   ├── services
-│    │   │   │   └── share
+│    │   │   │   ├── class
+│    │   │   │   │   ├── query-string-parameters.ts
+│    │   │   │   │   └── url-builder.ts
+│    │   │   │   ├── endpoints
+│    │   │   │   └── services
+│    │   │   │   │   ├── api-endpoints.service
+│    │   │   │   │   └── api-http.service
 │    │   │   ├── mocks
 │    │   │   └── authentication
 │    │   ├── modules

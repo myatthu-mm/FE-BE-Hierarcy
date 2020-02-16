@@ -50,9 +50,23 @@ export const data = [
                     name: 'http',
                     type: 'folder',
                     children: [
-                      { name: 'config', type: 'file' },
-                      { name: 'services', type: 'folder' },
-                      { name: 'share', type: 'folder' },
+                      {
+                        name: 'class',
+                        type: 'folder',
+                        children: [
+                          { name: 'query-string-parameters', type: 'file' },
+                          { name: 'url-builder', type: 'file' }
+                        ]
+                      },
+                      { name: 'endpoints', type: 'folder' },
+                      {
+                        name: 'services',
+                        type: 'folder',
+                        children: [
+                          { name: 'api-endpoints.service', type: 'file' },
+                          { name: 'api-http.service', type: 'file' }
+                        ]
+                      },
                     ]
                   },
                   { name: 'mocks', type: 'folder' },
