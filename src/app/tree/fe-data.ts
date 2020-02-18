@@ -58,7 +58,16 @@ export const data = [
                           { name: 'url-builder', type: 'file' }
                         ]
                       },
-                      { name: 'endpoints', type: 'folder' },
+                      {
+                        name: 'endpoints',
+                        type: 'folder',
+                        children: [
+                          { name: 'actions', type: 'file' },
+                          { name: 'endpoint-service1', type: 'file' },
+                          { name: 'endpoint-service2', type: 'file' },
+                          { name: 'endpoint-service3', type: 'file' },
+                        ]
+                      },
                       {
                         name: 'services',
                         type: 'folder',

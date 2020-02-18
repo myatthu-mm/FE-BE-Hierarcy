@@ -45,6 +45,8 @@ PROJECT_NAME
 │    │   │   │   │   ├── query-string-parameters.ts
 │    │   │   │   │   └── url-builder.ts
 │    │   │   │   ├── endpoints
+│    │   │   │   │   ├── actions.ts
+│    │   │   │   │   ├── endpoint-service 0-N
 │    │   │   │   └── services
 │    │   │   │   │   ├── api-endpoints.service
 │    │   │   │   │   └── api-http.service
