@@ -24,9 +24,18 @@ export const data = [
             type: 'file'
           },
           {
-            name: 'Controller2',
+            name: 'Controller3',
             type: 'file'
           },
+        ]
+      },
+      {
+        name: 'models',
+        type: 'folder',
+        children: [
+          { name: 'Model1', type: 'file' },
+          { name: 'Model2', type: 'file' },
+          { name: 'Model3', type: 'file' }
         ]
       },
       {

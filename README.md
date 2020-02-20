@@ -82,6 +82,10 @@ PROJECT_NAME
 │   ├── Controller1
 │   ├── Controller2
 │   └── Controller3
+├── models
+│   ├── Model1
+│   ├── Model2
+│   └── Model3
 ├── helpers
 │   └── constants.js
 ├── routes
