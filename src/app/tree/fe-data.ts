@@ -79,7 +79,7 @@ export const data = [
                     ]
                   },
                   { name: 'mocks', type: 'folder' },
-                  { name: 'authentication', type: 'folder' }
+                  { name: 'authentication/guards', type: 'folder' }
                 ]
               },
               { name: 'modules', type: 'folder' },
@@ -92,6 +92,7 @@ export const data = [
                   { name: 'directives', type: 'folder' },
                   { name: 'pipes', type: 'folder' },
                   { name: 'models', type: 'folder' },
+                  { name: 'states', type: 'folder' },
                   { name: 'constant', type: 'file' },
                 ]
               },
