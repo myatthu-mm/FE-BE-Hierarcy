@@ -59,6 +59,7 @@ PROJECT_NAME
 │    │   │   ├── directives
 │    │   │   ├── pipes
 │    │   │   ├── models
+│    │   │   ├── states
 │    │   │   └── constant
 │    ├── assets
 │    │   ├── images
