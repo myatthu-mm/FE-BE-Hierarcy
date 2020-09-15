@@ -69,11 +69,15 @@ export const data = [
                         ]
                       },
                       {
+                        name: 'interceptors',
+                        type: 'folder'
+                      },
+                      {
                         name: 'services',
                         type: 'folder',
                         children: [
-                          { name: 'api-endpoints.service', type: 'file' },
-                          { name: 'api-http.service', type: 'file' }
+                          { name: 'endpoints.service', type: 'file' },
+                          { name: 'http.service', type: 'file' }
                         ]
                       },
                     ]

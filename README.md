@@ -47,9 +47,10 @@ PROJECT_NAME
 │    │   │   │   ├── endpoints
 │    │   │   │   │   ├── actions.ts
 │    │   │   │   │   ├── endpoint-service 0-N
+│    │   │   │   ├── interceptors
 │    │   │   │   └── services
-│    │   │   │   │   ├── api-endpoints.service
-│    │   │   │   │   └── api-http.service
+│    │   │   │   │   ├── endpoints.service
+│    │   │   │   │   └── http.service
 │    │   │   ├── mocks
 │    │   │   └── authentication
 │    │   ├── modules
